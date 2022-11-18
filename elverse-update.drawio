@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T09:03:42.210Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="1rSctvv02JiMxGYoGdxU" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T09:07:21.724Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="9OJx1ki-g76c9A9_If8I" version="20.5.3" type="github">
   <diagram id="ESfHzFhIp8_Np-J2azcc" name="Page-1">
     <mxGraphModel dx="2916" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -398,8 +398,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DQuGTHQYeRv185xnL4Ju-148" value="task_id: &quot;&lt;span style=&quot;text-align: center;&quot;&gt;5434589524523490523452&quot;&lt;/span&gt;&lt;br&gt;state: success&lt;br&gt;elapsed: 1233&lt;br&gt;input_count: 20000,&lt;br&gt;text_filtered: 2,&lt;br&gt;existed: 2344,&lt;br&gt;created: 17654&lt;br&gt;create_time: &#39;2022-12-12T00:00:00+8:00&#39;&lt;br&gt;start_time: &#39;2022-12-12T00:03:00+8:00&#39;&amp;nbsp;&lt;br&gt;finished_time: &#39;2022-12-12T00:08:23+8:00&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="800" y="2465" width="490" height="180" as="geometry" />
+        <mxCell id="DQuGTHQYeRv185xnL4Ju-148" value="task_id: &quot;&lt;span style=&quot;text-align: center;&quot;&gt;5434589524523490523452&quot;&lt;/span&gt;&lt;br&gt;state: success&lt;br&gt;elapsed: 1233&lt;br&gt;input_count: 20000,&lt;br&gt;text_filtered: 2,&lt;br&gt;existed: 2344,&lt;br&gt;created: 17654&lt;br&gt;create_time: &#39;2022-12-12T00:00:00+8:00&#39;&lt;br&gt;start_time: &#39;2022-12-12T00:03:00+8:00&#39;&amp;nbsp;&lt;br&gt;finished_time: &#39;2022-12-12T00:08:23+8:00&#39;&lt;br&gt;validation: {&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&#39;unique_validation&#39;: {&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&#39;state&#39;: &#39;passed&#39;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;},&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&#39;fake_validation&#39;: {&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&#39;state&#39;: &#39;failed&#39;,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&#39;message&#39;: &#39;validation failed, bla bla bla&#39;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;}&lt;br&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="800" y="2420" width="490" height="360" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
