@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T08:37:33.554Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="I-XygkxO_eijVT82PO7P" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T08:39:51.264Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="GokIQlmlzjJFcRSnAest" version="20.5.3" type="github">
   <diagram id="ESfHzFhIp8_Np-J2azcc" name="Page-1">
     <mxGraphModel dx="2066" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -39,7 +39,7 @@
           <mxGeometry x="710" y="145" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DQuGTHQYeRv185xnL4Ju-48" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="177.5" y="1140" width="415" height="160" as="geometry" />
+          <mxGeometry x="160" y="1160" width="415" height="160" as="geometry" />
         </mxCell>
         <mxCell id="DQuGTHQYeRv185xnL4Ju-36" value="DataLoader" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=none;" vertex="1" parent="DQuGTHQYeRv185xnL4Ju-48">
           <mxGeometry x="170" y="50" width="120" height="60" as="geometry" />
@@ -220,6 +220,12 @@
         </mxCell>
         <mxCell id="DQuGTHQYeRv185xnL4Ju-101" value="Connection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;dashed=1;" vertex="1" parent="DQuGTHQYeRv185xnL4Ju-92">
           <mxGeometry y="45" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DQuGTHQYeRv185xnL4Ju-102" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=default;fontSize=18;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="107.5" y="2080" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DQuGTHQYeRv185xnL4Ju-104" value="我想要更新补集数据(InputCollectedDetail)" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;strokeColor=default;fontSize=15;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="72.5" y="1940" width="195" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
