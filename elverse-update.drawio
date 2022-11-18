@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T08:42:26.900Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="vVjZeX8Jmdku2HWqjRuW" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T08:55:30.218Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Kt_6fNwDGfbPrWwnEBQ1" version="20.5.3" type="github">
   <diagram id="ESfHzFhIp8_Np-J2azcc" name="Page-1">
     <mxGraphModel dx="2066" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DQuGTHQYeRv185xnL4Ju-130" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontSize=15;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="770" y="2180" width="290" height="620" as="geometry" />
+        </mxCell>
         <mxCell id="DQuGTHQYeRv185xnL4Ju-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="uScZJCT3d9wsoi-lr6Ei-2" target="DQuGTHQYeRv185xnL4Ju-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -297,6 +300,60 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="630" y="2004.5" as="sourcePoint" />
             <mxPoint x="690" y="2004.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DQuGTHQYeRv185xnL4Ju-121" value="&lt;b&gt;Pipeline&lt;br&gt;Invoker&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontSize=15;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="2310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DQuGTHQYeRv185xnL4Ju-123" value="&lt;b&gt;pipeline_name:&amp;nbsp;&lt;/b&gt;&quot;input_collected_detail_import&quot;&lt;b&gt;&lt;br&gt;file_uri: &lt;/b&gt;&quot;file:///data/input_collected_data_2022_11_18.xlsx&quot;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;validate:&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; true&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="72.5" y="2320" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DQuGTHQYeRv185xnL4Ju-124" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="2339" as="sourcePoint" />
+            <mxPoint x="590" y="2339" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DQuGTHQYeRv185xnL4Ju-125" value="LocalFileDataLoader" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontSize=15;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="2200" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DQuGTHQYeRv185xnL4Ju-126" value="Restful API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DQuGTHQYeRv185xnL4Ju-127" value="TextProcessor" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontSize=15;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="2330" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DQuGTHQYeRv185xnL4Ju-128" value="Neo4jDataSank" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontSize=15;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="2590" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DQuGTHQYeRv185xnL4Ju-129" value="DataValiator" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontSize=15;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="2720" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DQuGTHQYeRv185xnL4Ju-131" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=15;labelBackgroundColor=#808080;fillColor=#CCCCCC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="919.5" y="2270" as="sourcePoint" />
+            <mxPoint x="919.5" y="2320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DQuGTHQYeRv185xnL4Ju-132" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=15;labelBackgroundColor=#808080;fillColor=#CCCCCC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="919.5" y="2400" as="sourcePoint" />
+            <mxPoint x="919.5" y="2450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DQuGTHQYeRv185xnL4Ju-133" value="TextFilterFilter" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontSize=15;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="2460" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DQuGTHQYeRv185xnL4Ju-134" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=15;labelBackgroundColor=#808080;fillColor=#CCCCCC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="919.5" y="2530" as="sourcePoint" />
+            <mxPoint x="919.5" y="2580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DQuGTHQYeRv185xnL4Ju-136" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=15;labelBackgroundColor=#808080;fillColor=#CCCCCC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="919.5" y="2660" as="sourcePoint" />
+            <mxPoint x="919.5" y="2710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
